@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imc"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/inputPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:hint="@string/insira_seu_peso_em_kg"
+        android:inputType="numberDecimal"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/purple_200" />
+
+    <EditText
+        android:id="@+id/inputAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:hint="@string/insira_sua_altura"
+        android:inputType="numberDecimal"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/purple_200" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:layout_marginTop="36dp"
+        android:padding="14dp"
+        android:text="@string/calcular"
+        android:textSize="20sp" />
+
+</LinearLayout>
